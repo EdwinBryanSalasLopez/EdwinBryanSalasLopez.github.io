@@ -1,64 +1,39 @@
 ---
 layout: archive
-title: "CV"
+title: "Currículum académico"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+# Edwin Bryan Salas López
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+Profesor investigador y estudiante de doctorado en Ciencias Naturales e Ingeniería en la Universidad Autónoma Metropolitana.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Formación académica
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Doctorado en Ciencias Naturales e Ingeniería**, Universidad Autónoma Metropolitana. En curso.
+- **Maestría en Ciencias de la Computación**, Universidad Autónoma Metropolitana (2021–2024).
+- **Maestría en Cambio Climático y Biodiversidad**, Universidad Rosario Castellanos (2022–2024; mención honorífica según perfil proporcionado).
+- **Ingeniería en Computación**, Universidad Autónoma Metropolitana (2015–2021).
+- **Diplomado en competencias interdisciplinarias con inteligencia artificial**, Universidad Nacional Autónoma de México (2024–2025).
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Experiencia docente y profesional
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Consulta la sección [Docencia](/docencia/) para conocer las instituciones y áreas de trabajo.
+
+## Áreas de especialización
+
+Inteligencia artificial · Ciencia de datos · Ingeniería de software · Neurociencia computacional · Sostenibilidad ambiental.
+
+## Producción académica
+
+{% assign publicaciones_ordenadas = site.publications | sort: 'date' | reverse %}
+{% for post in publicaciones_ordenadas %}
+- [{{ post.title }}]({{ post.url | relative_url }}) ({{ post.date | date: '%Y' }}). {% if post.venue %}*{{ post.venue }}*.{% endif %}
+{% endfor %}
+
+## Perfiles
+
+[GitHub](https://github.com/EdwinBryanSalasLopez) · [LinkedIn](https://www.linkedin.com/in/edwin-salas)

@@ -1,36 +1,14 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publicaciones científicas"
 permalink: /publications/
 author_profile: true
+excerpt: "Publicaciones académicas de Edwin Bryan Salas López en inteligencia artificial y estudios ambientales."
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+Producción académica organizada por fecha. Las ligas DOI remiten a los registros de las publicaciones; el manuscrito SSRN se identifica por separado como documento de trabajo.
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% assign publicaciones_ordenadas = site.publications | sort: 'date' | reverse %}
+{% for post in publicaciones_ordenadas %}
+  {% include archive-single.html %}
+{% endfor %}

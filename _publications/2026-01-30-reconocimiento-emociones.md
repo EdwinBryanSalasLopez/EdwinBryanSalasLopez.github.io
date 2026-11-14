@@ -1,34 +1,23 @@
-
 ---
 title: "Reconocimiento de Emociones en Rostros Utilizando una Red Neuronal Convolucional Evolutiva"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-01-30-reconocimiento-emociones/
-excerpt: "Investigación sobre el reconocimiento de emociones en rostros mediante una red neuronal convolucional evolutiva."
+excerpt: "Trabajo de investigación sobre el reconocimiento de emociones faciales mediante redes neuronales convolucionales evolutivas."
 date: 2026-01-30
 venue: "Ibero Ciencias - Revista Científica y Académica"
 paperurl: "https://doi.org/10.63371/ic.v5.n1.a664"
-citation: 'Salas López, E. B., González Brambila, S. B., Villegas Cortez, J., & Chagoya Galván, D. J. (2026). Reconocimiento de Emociones en Rostros Utilizando una Red Neuronal Convolucional Evolutiva. Ibero Ciencias.'
+citation: 'Salas López, E. B.; González Brambila, S. B.; Villegas Cortez, J.; Chagoya Galván, D. J. (2026). Reconocimiento de Emociones en Rostros Utilizando una Red Neuronal Convolucional Evolutiva. Ibero Ciencias.'
 ---
-
-## Resumen
-
-Investigación sobre el reconocimiento de emociones en rostros mediante una red neuronal convolucional evolutiva.
 
 ## Autores
 
-- Edwin Bryan Salas López
-- Silvia Beatriz González Brambila
-- Juan Villegas Cortez
-- Diana Jacqueline Chagoya Galván
+Edwin Bryan Salas López; Silvia Beatriz González Brambila; Juan Villegas Cortez; Diana Jacqueline Chagoya Galván.
 
-## Publicación
+## Sobre el trabajo
 
-**Revista:** Ibero Ciencias - Revista Científica y Académica
+Estudio sobre reconocimiento de emociones en rostros utilizando una red neuronal convolucional evolutiva. Para conocer el alcance, metodología y resultados exactos, consulta el artículo original.
 
-**Fecha:** 30 de enero de 2026
-
+**Revista:** Ibero Ciencias - Revista Científica y Académica  
+**Fecha registrada:** 30 de enero de 2026  
 **DOI:** [10.63371/ic.v5.n1.a664](https://doi.org/10.63371/ic.v5.n1.a664)
-
-[Consultar artículo](https://doi.org/10.63371/ic.v5.n1.a664)
-  
