@@ -1,14 +1,34 @@
+
 ---
-title: "Paper Title Number 2"
+title: "Reconocimiento de Emociones en Rostros Utilizando una Red Neuronal Convolucional Evolutiva"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2026-01-30-reconocimiento-emociones/
+excerpt: "Investigación sobre el reconocimiento de emociones en rostros mediante una red neuronal convolucional evolutiva."
+date: 2026-01-30
+venue: "Ibero Ciencias - Revista Científica y Académica"
+paperurl: "https://doi.org/10.63371/ic.v5.n1.a664"
+citation: 'Salas López, E. B., González Brambila, S. B., Villegas Cortez, J., & Chagoya Galván, D. J. (2026). Reconocimiento de Emociones en Rostros Utilizando una Red Neuronal Convolucional Evolutiva. Ibero Ciencias.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+## Resumen
+
+Investigación sobre el reconocimiento de emociones en rostros mediante una red neuronal convolucional evolutiva.
+
+## Autores
+
+- Edwin Bryan Salas López
+- Silvia Beatriz González Brambila
+- Juan Villegas Cortez
+- Diana Jacqueline Chagoya Galván
+
+## Publicación
+
+**Revista:** Ibero Ciencias - Revista Científica y Académica
+
+**Fecha:** 30 de enero de 2026
+
+**DOI:** [10.63371/ic.v5.n1.a664](https://doi.org/10.63371/ic.v5.n1.a664)
+
+[Consultar artículo](https://doi.org/10.63371/ic.v5.n1.a664)
+  
